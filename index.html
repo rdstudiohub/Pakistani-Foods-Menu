@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>پاکستانی ٹاپ 10 کھانے | Top 10 Pakistani Foods</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Poppins:wght@300;400;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Poppins','Noto Nastaliq Urdu',sans-serif;background:#faf3e8;color:#2d2d2d;min-height:100vh;overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+
+/* ─── HEADER ─── */
+.header{background:linear-gradient(135deg,#1a5c2a,#2e8b57,#1a5c2a);color:#fff;text-align:center;padding:50px 20px 35px;position:relative;overflow:hidden}
+.header::before{content:'';position:absolute;inset:0;background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" opacity="0.06"><path d="M20,70 Q35,30 50,60 T80,40" fill="none" stroke="%23fff" stroke-width="2"/></svg>') repeat;background-size:100px 100px}
+.header h1{font-family:'Noto Nastaliq Urdu',serif;font-size:44px;font-weight:700;color:#FFD700;text-shadow:0 3px 15px rgba(0,0,0,.3);position:relative;z-index:1}
+.header .en{font-family:'Playfair Display',serif;font-size:20px;font-weight:400;color:rgba(255,255,255,.8);letter-spacing:3px;text-transform:uppercase;margin-top:4px;position:relative;z-index:1}
+.header .tagline{font-family:'Noto Nastaliq Urdu',serif;font-size:17px;color:rgba(255,255,255,.7);margin-top:10px;position:relative;z-index:1}
+.header .stripe{width:80px;height:3px;background:linear-gradient(90deg,#FFD700,#FF6B35);border-radius:2px;margin:12px auto;position:relative;z-index:1}
+
+/* ─── CONTAINER ─── */
+.container{max-width:1100px;margin:0 auto;padding:30px 16px}
+
+/* ─── SECTION TITLE ─── */
+.section-title{text-align:center;margin-bottom:30px}
+.section-title .ar{font-family:'Noto Nastaliq Urdu',serif;font-size:30px;font-weight:700;color:#1a5c2a;display:block}
+.section-title .en{font-family:'Playfair Display',serif;font-size:14px;color:#888;letter-spacing:2px;text-transform:uppercase;display:block;margin-top:2px}
+.section-title .divider{width:50px;height:2px;background:linear-gradient(90deg,#1a5c2a,#FFD700);margin:8px auto;border-radius:2px}
+
+/* ─── MENU GRID ─── */
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px}
+
+.menu-card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);transition:transform .3s ease,box-shadow .3s;border:1px solid rgba(0,0,0,.04)}
+.menu-card:hover{transform:translateY(-5px);box-shadow:0 12px 35px rgba(0,0,0,.12)}
+
+.menu-card .img-wrap{height:220px;overflow:hidden;position:relative}
+.menu-card .img-wrap img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.menu-card:hover .img-wrap img{transform:scale(1.05)}
+
+.menu-card .card-body{padding:16px 18px 18px}
+
+.menu-card .rank{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;background:linear-gradient(135deg,#FFD700,#FF6B35);color:#fff;font-weight:800;font-size:14px;border-radius:50%;margin-bottom:6px;box-shadow:0 3px 8px rgba(255,107,53,.3)}
+
+.menu-card .name-ar{font-family:'Noto Nastaliq Urdu',serif;font-size:22px;font-weight:700;color:#1a5c2a;margin-bottom:2px;line-height:1.4}
+.menu-card .name-en{font-family:'Playfair Display',serif;font-size:14px;font-weight:400;color:#999;letter-spacing:.5px;font-style:italic;margin-bottom:6px}
+
+.menu-card .desc{font-size:13px;color:#666;line-height:1.6;margin-bottom:8px}
+.menu-card .desc .urdu{font-family:'Noto Nastaliq Urdu',serif;font-size:14px;color:#555;display:block;margin-bottom:3px}
+.menu-card .desc .english{font-size:12px;color:#888;display:block}
+
+.menu-card .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.menu-card .tag{background:#f0f7f0;color:#1a5c2a;font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px;border:1px solid rgba(26,92,42,.15)}
+
+/* ─── FOOTER ─── */
+.footer{background:linear-gradient(135deg,#1a5c2a,#2e8b57);color:#fff;text-align:center;padding:25px;margin-top:30px}
+.footer .fl{font-family:'Noto Nastaliq Urdu',serif;font-size:22px;color:#FFD700}
+.footer .fle{font-family:'Playfair Display',serif;font-size:12px;letter-spacing:2px;text-transform:uppercase;opacity:.7;margin-top:2px}
+
+@media(max-width:500px){
+.header h1{font-size:32px}
+.menu-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- ═══ HEADER ═══ -->
+<div class="header">
+  <h1>پاکستانی ٹاپ ۱۰ کھانے</h1>
+  <div class="en">Top 10 Pakistani Foods</div>
+  <div class="stripe"></div>
+  <div class="tagline">🇵🇰 ذائقے کی ایک نئی پہچان • A Taste of Pakistan</div>
+</div>
+
+<!-- ═══ MENU ═══ -->
+<div class="container">
+<div class="section-title">
+  <span class="ar">مشہور پکوان</span>
+  <span class="en">Famous Dishes of Pakistan</span>
+  <div class="divider"></div>
+</div>
+
+<div class="menu-grid">
+
+<!-- 1. Biryani -->
+<div class="menu-card">
+  <div class="img-wrap">
+    <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&q=85&auto=format" alt="Biryani" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="rank">1</div>
+    <div class="name-ar">بریانی</div>
+    <div class="name-en">Chicken / Mutton Biryani</div>
+    <div class="desc">
+      <span class="urdu">مصالحہ دار چاول، مرغن گوشت، اور خوشبودار بوٹیوں کا لذیذ مرکب۔ ہر پاکستانی تقریب کا مرکزی پکوان۔</span>
+      <span class="english">Fragrant spiced rice layered with tender meat, slow-cooked to perfection. The heart of every Pakistani celebration.</span>
+    </div>
+    <div class="tags"><span class="tag">#NonVegetarian</span><span class="tag">#Rice</span><span class="tag">#Spicy</span></div>
+  </div>
+</div>
+
+<!-- 2. Nihari -->
+<div class="menu-card">
+  <div class="img-wrap">
+    <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=85&auto=format" alt="Nihari" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="rank">2</div>
+    <div class="name-ar">نہاری</div>
+    <div class="name-en">Nihari</div>
+    <div class="desc">
+      <span class="urdu">آہستہ پکا ہوا گوشت کا شوربا، خاص مصالحوں سے لیس۔ روایتی ناشتہ جو صبح صبح ہی مزہ دیتا ہے۔</span>
+      <span class="english">Slow-cooked spicy meat stew, simmered overnight with aromatic spices. A legendary breakfast delicacy.</span>
+    </div>
+    <div class="tags"><span class="tag">#Stew</span><span class="tag">#Breakfast</span><span class="tag">#Traditional</span></div>
+  </div>
+</div>
+
+<!-- 3. Chicken Karahi -->
+<div class="menu-card">
+  <div class="img-wrap">
+    <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=85&auto=format" alt="Chicken Karahi" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="rank">3</div>
+    <div class="name-ar">چکن کراہی</div>
+    <div class="name-en">Chicken Karahi</div>
+    <div class="desc">
+      <span class="urdu">لوہے کی کڑاہی میں تازہ مصالحوں کے ساتھ پکایا گیا چکن۔ ٹماٹر، ادرک، اور ہری مرچ کا بہترین امتزاج۔</span>
+      <span class="english">Sizzling chicken cooked in a cast-iron wok with tomatoes, ginger, and green chilies. Bold, fiery, and fresh.</span>
+    </div>
+    <div class="tags"><span class="tag">#Curry</span><span class="tag">#Spicy</span><span class="tag">#Popular</span></div>
+  </div>
+</div>
+
+<!-- 4. Haleem -->
+<div class="menu-card">
+  <div class="img-wrap">
+    <img src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=600&q=85&auto=format" alt="Haleem" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="rank">4</div>
+    <div class="name-ar">حلیم</div>
+    <div class="name-en">Haleem</div>
+    <div class="desc">
+      <span class="urdu">گندم، جَو، دال اور گوشت کو رات بھر پکا کر تیار کیا جانے والا غذائیت سے بھرپور دلیہ۔ لیموں اور تلی ہوئی پیاز سے سجا۔</span>
+      <span class="english">A rich, slow-cooked porridge of wheat, barley, lentils, and meat. Topped with lemon, fried onions, and fresh ginger.</span>
+    </div>
+    <div class="tags"><span class="tag">#SlowCooked</span><span class="tag">#Nutritious</span><span class="tag">#ComfortFood</span></div>
+  </div>
+</div>
+
+<!-- 5. Chapli Kebab -->
+<div class="menu-card">
+  <div class="img-wrap">
+    <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?w=600&q=85&auto=format" alt="Chapli Kebab" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="rank">5</div>
+    <div class="name-ar">چپلی کباب</div>
+    <div class="name-en">Chapli Kebab</div>
+    <div class="desc">
+      <span class="urdu">پشاور کی مشہور کباب، پسے ہوئے گوشت میں ٹماٹر، دھنیا، انار دانہ اور خاص مصالحے شامل ہیں۔ تل کر چٹنی کے ساتھ پیش کیا جاتا ہے۔</span>
+      <span class="english">Peshawar's legendary spiced minced meat patty with tomatoes, coriander, and pomegranate seeds. Pan-fried and served with chutney.</span>
+    </div>
+    <div class="tags"><span class="tag">#Kebab</span><span class="tag">#Peshawar</span><span class="tag">#StreetFood</span></div>
+  </div>
+</div>
+
+<!-- 6. Seekh Kebab -->
+<div class="menu-card">
+  <div class="img-wrap">
+    <img src="https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=600&q=85&auto=format" alt="Seekh Kebab" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="rank">6</div>
+    <div class="name-ar">سیخ کباب</div>
+    <div class="name-en">Seekh Kebab</div>
+    <div class="desc">
+      <span class="urdu">مخصوص مصالحوں میں میرینیٹ شدہ قیمہ، سیخ پر لگا کر تندور یا گرل پر پکایا جاتا ہے۔ نرم، رس دار اور بے حد لذیذ۔</span>
+      <span class="english">Minced lamb or beef mixed with herbs and spices, skewered and grilled over charcoal. Soft, juicy, and smoky.</span>
+    </div>
+    <div class="tags"><span class="tag">#Grilled</span><span class="tag">#BBQ</span><span class="tag">#Tandoor</span></div>
+  </div>
+</div>
+
+<!-- 7. Daal Chawal -->
+<div class="menu-card">
+  <div class="img-wrap">
+    <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&q=85&auto=format" alt="Daal Chawal" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="rank">7</div>
+    <div class="name-ar">دال چاول</div>
+    <div class="name-en">Daal Chawal</div>
+    <div class="desc">
+      <span class="urdu">پاکستان کا قومی اور سب سے پسندیدہ کھانا۔ مسور یا مونگ کی دال، سادہ چاول کے ساتھ۔ گھر کا ذائقہ اور سکون۔</span>
+      <span class="english">Pakistan's ultimate comfort food — simple lentils simmered with garlic and cumin, served over steamed rice. Pure soul food.</span>
+    </div>
+    <div class="tags"><span class="tag">#ComfortFood</span><span class="tag">#Vegetarian</span><span class="tag">#Everyday</span></div>
+  </div>
+</div>
+
+<!-- 8. Sajji -->
+<div class="menu-card">
+  <div class="img-wrap">
+    <img src="https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?w=600&q=85&auto=format" alt="Sajji" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="rank">8</div>
+    <div class="name-ar">سجی</div>
+    <div class="name-en">Balochi Sajji</div>
+    <div class="desc">
+      <span class="urdu">بلوچستان کی مشہور ڈش — پورا مرغ یا برّہ کو نمک لگا کر آہستہ آگ پر بھونا جاتا ہے۔ باہر سے کرنچی، اندر سے رس دار۔</span>
+      <span class="english">Whole chicken or lamb marinated in salt only, slow-roasted over open fire. Crispy outside, tender inside. A Balochi masterpiece.</span>
+    </div>
+    <div class="tags"><span class="tag">#Balochi</span><span class="tag">#BBQ</span><span class="tag">#Roast</span></div>
+  </div>
+</div>
+
+<!-- 9. Paya -->
+<div class="menu-card">
+  <div class="img-wrap">
+    <img src="https://images.unsplash.com/photo-1649841616077-5c9f258b90f1?w=600&q=85&auto=format" alt="Paya" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="rank">9</div>
+    <div class="name-ar">پائے</div>
+    <div class="name-en">Paya / Trotter Curry</div>
+    <div class="desc">
+      <span class="urdu">بکرے یا بھینس کے پائے کو خاص مصالحوں میں رات بھر پکایا جاتا ہے۔ انتہائی ذائقہ دار اور غذائیت سے بھرپور۔ نہاری کی طرح مشہور۔</span>
+      <span class="english">Trotters slow-cooked overnight in a rich, spiced gravy. Served with naan — a collagen-rich, deeply flavorful delicacy.</span>
+    </div>
+    <div class="tags"><span class="tag">#SlowCooked</span><span class="tag">#Traditional</span><span class="tag">#WeekendSpecial</span></div>
+  </div>
+</div>
+
+<!-- 10. Qorma -->
+<div class="menu-card">
+  <div class="img-wrap">
+    <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae7b2?w=600&q=85&auto=format" alt="Qorma" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="rank">10</div>
+    <div class="name-ar">قورمہ</div>
+    <div class="name-en">Chicken / Mutton Qorma</div>
+    <div class="desc">
+      <span class="urdu">دہی اور مصالحوں میں میرینیٹ شدہ گوشت، گھی میں آہستہ پکایا جاتا ہے۔ یخنی دار سالن جو روٹی یا چاول دونوں کے ساتھ بہترین لگتا ہے۔</span>
+      <span class="english">Tender meat slow-cooked in a yogurt-based gravy with whole spices and saffron. Rich, creamy, and utterly regal.</span>
+    </div>
+    <div class="tags"><span class="tag">#Curry</span><span class="tag">#Royal</span><span class="tag">#RichFlavor</span></div>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ═══ FOOTER ═══ -->
+<div class="footer">
+  <div class="fl">پاکستانی ٹاپ ۱۰ کھانے</div>
+  <div class="fle">Top 10 Pakistani Foods</div>
+  <div style="font-size:12px;opacity:.6;margin-top:6px">🇵🇰 Pakistan Zindabad • Flavours of the Nation</div>
+</div>
+
+</body>
+</html>
